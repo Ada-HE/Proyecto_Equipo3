@@ -1,0 +1,50 @@
+
+.table-container {
+    margin: 20px auto;
+    width: 80%;
+    border-collapse: collapse;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+  }
+
+  .centered-table {
+    width: 100%;
+    text-align: center;
+  }
+
+  th, td {
+    padding: 12px;
+  }
+
+  th {
+    background-color: #ff782d; 
+    color: #fff; 
+  }
+
+  tr:nth-child(even) {
+    background-color: #f2f2f2;
+  }
+
+  
+  .product-image {
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+    border-radius: 50%;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  }
+
+ 
+  h2 {
+    color: #333;
+    margin-bottom: 20px;
+  }
+
+
+  .form {
+    display: inline-block;
+  }
+ 
+  .product-image:hover {
+    transform: scale(1.4);
+  }
+  

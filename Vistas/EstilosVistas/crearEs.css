@@ -1,0 +1,156 @@
+.table-container {
+  width: 100%;
+  margin-top: -60px;
+  height: 350px;
+  overflow: auto;
+}
+
+.centered-table {
+  margin: 0 auto;
+  border-collapse: collapse;
+  width: max-content;
+  table-layout: fixed;
+}
+
+.centered-table th,
+.centered-table td {
+  padding: 20px 40px;
+  text-align: center;
+}
+
+.centered-table th {
+  background-color: #729ee0;
+  font-weight: bold;
+}
+
+.centered-table tr:nth-child(even) td {
+  background-color: #fdcaaf;
+}
+
+.centered-table tr:hover td {
+  background-color: #fbf39d;
+}
+
+.centered-table tr:first-child th,
+.centered-table tr:first-child td {
+  background-color: #ff782d;
+  color: white;
+}
+
+/*botones*/
+
+.submit-button {
+  background-color: #ff782d;
+  color: white;
+  margin-top: 10px;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+.submit-button:hover {
+  background-color: #ff782d;
+}
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "fondo" sans-serif;
+}
+
+body{
+  background: #dfe9f5;
+}
+.d1{
+  width: 330px;
+  padding: 2pc 1pc;
+  margin: 50px auto;
+  background-color: #fff;
+  border-radius: 10px;    
+  text-align: center;
+  box-shadow: 0 30px 75px rgb(0,0,0,0.3) 
+}
+h2{
+  font-size: 2pc;
+  margin-bottom: 2pc;
+  outline: none;
+  border: 1px solid white;
+}
+form input{
+  width: 90%;
+  outline: none;
+  border: 1px solid white;
+  padding: 12px 20px;
+  margin-bottom: 20px;
+  border-radius: 20px;
+  background: #e4e4e4;
+  
+}
+.registro, .registro a{
+  margin-top: 15px;
+  padding: 1px;
+  color: rgb(17,107,143);
+}
+.olvide, .olvide a{
+  color: rgb(17,107,143);
+  margin-top: 5px;
+  padding: 8px;
+}
+#usuario{
+  margin-top: 30px;
+}
+#b{
+  margin-top: 30px;
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: transparent;
+  border: 0;
+  color: #ff0000;
+  text-transform: uppercase;
+  letter-spacing: 5px;
+  position: relative;
+  border-radius: 5px;
+  cursor: pointer; 
+  transition: all ease-out 200ms;
+  }
+  #b:hover{
+  color:#ff0000;
+  text-shadow: e e 3px  #000000; 
+  animation: none !important;
+  } 
+  #b::before{
+  content:"";
+  position:absolute;
+  width: 100%;
+  height: 100%;
+  left: -3px;
+  top:-3px;
+  border: 3px solid #000000;
+  border-radius: 8px;
+  transition: all ease-out 200ms;
+  animation: efecto-luz 2s ease-in 0 infinite normal both;
+  }
+  #b:hover::before,
+  #b:hover::after {
+  border-color:#fe0000;
+  }
+  #b:hover::before{
+  filter: blur(1px);
+  }
+  .frm{
+      padding: 30px;
+      width: 30px;
+      color: #ff0000;
+  }
+  .form-control{
+    border-radius: 30px;
+    padding: 10px 30px;
+  }
+
+
+
+
+
+  
